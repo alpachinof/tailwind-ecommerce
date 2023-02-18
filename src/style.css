@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'IranSans';
+  src: url('./assets/fonts/IRANSansWeb_Light.ttf');
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('./assets/fonts/IRANYekan.ttf');
+}
+
+
+
 :root {
   color-scheme: light dark;
   font-synthesis: none;
@@ -9,11 +21,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-a {
-  @apply font-medium text-[#646cff];
-}
-a:hover {
-  @apply text-[#535bf2];
 }
