@@ -3,19 +3,29 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'IranSans';
-  src: url('./assets/fonts/IRANSansWeb_Light.ttf');
+  font-family: 'Yekan';
+  src: url('./assets/fonts/YekanRegular.woff');
 }
 
 @font-face {
-  font-family: 'IranYekan';
-  src: url('./assets/fonts/IRANYekan.ttf');
+  font-family: 'Bold';
+  src: url('./assets/fonts/YekanBold.woff');
+}
+
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('./assets/fonts/YekanExtraBold.woff');
+}
+
+@font-face {
+  font-family: 'ExtraBlack';
+  src: url('./assets/fonts/YekanExtraBlack.woff');
 }
 
 
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

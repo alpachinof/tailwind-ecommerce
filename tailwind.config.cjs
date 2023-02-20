@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["IranYekan", "Avenir", "Helvetica", "Arial", "sans-serif"],
-        yekan: ['IranYekan'],
+        sans: ["Yekan", "Avenir", "Helvetica", "Arial", "sans-serif"],
+        bold: ['Bold'],
+        extrabold: ['ExtraBold'],
+        extrablack: ['ExtraBlack'],
       },
       dropShadow: {
         logo: "0 0 2em #646cffaa",
